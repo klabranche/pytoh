@@ -4,6 +4,9 @@
 # https://mauroterraneo.wordpress.com/2015/12/27/solution-for-the-tower-of-hanoi-with-python-script/
 # https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?toc=%2Fazure%2Fdeveloper%2Fpython%2Ftoc.json&bc=%2Fazure%2Fdeveloper%2Fbreadcrumb%2Ftoc.json&tabs=flask%2Cwindows%2Cazure-portal%2Cterminal-bash%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cdeploy-instructions-zip-azcli
 # https://flask.palletsprojects.com/en/2.1.x/quickstart/#a-minimal-application
+# https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack
+# https://code.visualstudio.com/docs/azure/extensions
+# https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-portal%2Cterminal-bash%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cdeploy-instructions-zip-azcli
 
 def toh(steps,discCount, source_rod, destination_rod, placeholder_rod):           
     if discCount == 1:
