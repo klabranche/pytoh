@@ -11,5 +11,5 @@ def hello_world():
 def toh_solved(discCount):
     print('Request for index page received')
     steps = []
-    toh(discCount,'A', 'C', 'B')
+    toh(steps,discCount,'A', 'C', 'B')
     return render_template('index.html',count=discCount, results = steps)
