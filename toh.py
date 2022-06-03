@@ -1,16 +1,19 @@
-def hanoi(n, source, helper, target):
-    if n > 0:
-        # move tower of size n - 1 to helper:
-        hanoi(n - 1, source, target, helper)
-        # move disk from source peg to target peg
-        if source:
-            target.append(source.pop())
-        # move tower of size n-1 from helper to target
-        hanoi(n - 1, helper, source, target)
-        
-source = [4,3,2,1]
-target = []
-helper = []
-hanoi(len(source),source,helper,target)
+def toh(discCount , source_rod, destination_rod, placeholder_rod):           
+    if discCount == 1:
+        print("Move disc 1 from rod",source_rod,"to rod",destination_rod)
+        return
+    toh(discCount-1, source_rod, placeholder_rod, destination_rod)
+    print("Move disc",discCount,"from rod",source_rod,"to rod",destination_rod)
+    toh(discCount-1, placeholder_rod, destination_rod, source_rod)
 
-print(source, helper, target)
+#discCount = 3
+try:
+    discCount = int(input("How many disks do you want to move?"))
+except ValueError:
+    print()
+    print("discCount is not a number... defaulting to 3")
+    discCount=3
+
+print()
+print("Moving",discCount,"discs from rod A to rod C", end="\n\n")
+toh(discCount, 'A', 'C', 'B')
