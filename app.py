@@ -9,7 +9,7 @@ def home():
 
 @app.route("/toh/<int:discCount>")
 def toh_solved(discCount):
-    print('Request for index page received')
+    print('Request for TOH page received')
     steps = []
     toh(steps,discCount,'A', 'C', 'B')
     return render_template('index.html',count=discCount, results = steps)
