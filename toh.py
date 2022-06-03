@@ -7,6 +7,8 @@
 # https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack
 # https://code.visualstudio.com/docs/azure/extensions
 # https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-portal%2Cterminal-bash%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cdeploy-instructions-zip-azcli
+# https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers
+# https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-python-project-for-codespaces
 
 def toh(steps,discCount, source_rod, destination_rod, placeholder_rod):           
     if discCount == 1:
