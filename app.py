@@ -4,8 +4,8 @@ from toh import toh
 app = Flask(__name__)
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
+def home():
+    return "<h1>Home of the Tower Of Hanoi solver</h1>"
 
 @app.route("/toh/<int:discCount>")
 def toh_solved(discCount):
