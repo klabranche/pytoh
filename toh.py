@@ -9,6 +9,10 @@
 # https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-portal%2Cterminal-bash%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cdeploy-instructions-zip-azcli
 # https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers
 # https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-python-project-for-codespaces
+# https://nexttechnology.io/top-10-programming-languages-for-2022/
+# https://insights.stackoverflow.com/survey/2021#most-popular-technologies-language
+# https://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext
+# http://blog.stacksocial.com/popular-coding-language/#:~:text=Python%20is%20the%20most%20popular,and%20keeping%20Java%20in%20CS1.
 
 def toh(steps,discCount, source_rod, destination_rod, placeholder_rod):           
     if discCount == 1:
