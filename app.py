@@ -10,5 +10,6 @@ def hello_world():
 @app.route("/toh/<int:discCount>")
 def toh_solved(discCount):
     print('Request for index page received')
-    output = toh(discCount,'A', 'C', 'B')
-    return render_template('index.html',count=discCount)
+    steps = []
+    toh(discCount,'A', 'C', 'B')
+    return render_template('index.html',count=discCount, results = steps)
