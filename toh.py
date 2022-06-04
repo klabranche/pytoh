@@ -15,26 +15,32 @@
 # http://blog.stacksocial.com/popular-coding-language/#:~:text=Python%20is%20the%20most%20popular,and%20keeping%20Java%20in%20CS1.
 # https://lp.jetbrains.com/python-developers-survey-2021/#PythonPackaging
 
-def toh(steps,discCount, source_rod, destination_rod, placeholder_rod):           
-    if discCount == 1:
+def toh(steps,disc_count, source_rod, destination_rod, placeholder_rod):
+    """towers of hanoi recursive algorithm"""           
+    if disc_count == 1:
         #print("Move disc 1 from rod",source_rod,"to rod",destination_rod)
         steps.append((1,source_rod,destination_rod))
         return
-    toh(steps,discCount-1, source_rod, placeholder_rod, destination_rod)
+    toh(steps,disc_count-1, source_rod, placeholder_rod, destination_rod)
     #print("Move disc",discCount,"from rod",source_rod,"to rod",destination_rod)
-    steps.append((discCount,source_rod,destination_rod))
-    toh(steps,discCount-1, placeholder_rod, destination_rod, source_rod)
+    steps.append((disc_count,source_rod,destination_rod))
+    toh(steps,disc_count-1, placeholder_rod, destination_rod, source_rod)
 
-def main():
+def console():
+    """call toh from console"""
     try:
-        discCount = int(input("How many disks do you want to move?"))
+        print()
+        discs_to_move = int(input("How many disks do you want to move?"))
     except ValueError:
         print()
         print("discCount is not a number... defaulting to 3")
-        discCount=3
+        discs_to_move=3
 
     print()
-    print("Moving",discCount,"discs from rod A to rod C", end="\n\n")
+    print("Moving",discs_to_move,"discs from rod A to rod C", end="\n\n")
     steps=[]
-    toh(steps,discCount, 'A', 'C', 'B')
+    toh(steps,discs_to_move, 'A', 'C', 'B')
+    for i, step in enumerate(steps):
+        print("Move disc", step[0],"from rod",step[1],"to rod",step[2])
+
     print(steps)
