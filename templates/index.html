@@ -1,7 +1,9 @@
 <!doctype html>
 <title> Tower Of Hanoi has been solved!!!!</title>
 
-  <h1>Here is the solution for {{ count }} discs to be moved between three rods.</h1>
+<a href="{{url_for('home')}}">Back to Home Page</a>
+<p>You can solve for different number of discs by changing the number at the end of the url above (/toh/#)</p>
+  <h1>The solution for {{ count }} discs to be moved between three rods is:</h1>
 
   {% for disc, source,dest in results %}
     <p>Move disc {{disc}} from rod {{source}}  to rod {{dest}}</p>
