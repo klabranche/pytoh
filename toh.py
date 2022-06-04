@@ -25,22 +25,3 @@ def toh(steps,disc_count, source_rod, destination_rod, placeholder_rod):
     #print("Move disc",discCount,"from rod",source_rod,"to rod",destination_rod)
     steps.append((disc_count,source_rod,destination_rod))
     toh(steps,disc_count-1, placeholder_rod, destination_rod, source_rod)
-
-def console():
-    """call toh from console"""
-    try:
-        print()
-        discs_to_move = int(input("How many disks do you want to move?"))
-    except ValueError:
-        print()
-        print("discCount is not a number... defaulting to 3")
-        discs_to_move=3
-
-    print()
-    print("Moving",discs_to_move,"discs from rod A to rod C", end="\n\n")
-    steps=[]
-    toh(steps,discs_to_move, 'A', 'C', 'B')
-    for i, step in enumerate(steps):
-        print("Move disc", step[0],"from rod",step[1],"to rod",step[2])
-
-    print(steps)
