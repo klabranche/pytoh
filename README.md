@@ -15,7 +15,7 @@ The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder
 To see it in action right now:
 
 1. [Request access](https://github.com/features/codespaces/signup) to Codespaces for your github account.  Access should be given in a few hours.
-1. After getting access to Codespaces, login to github and then navigate to the https://github.com/klabranche/pytoh repository.
+1. After getting access to Codespaces, login to github and navigate to the https://github.com/klabranche/pytoh repository.
 1. Select `Use this template`. While you can create a Codespace right from `<> code` this will create a copy of the repository in your profile.
 1. Fill out the create a new repository from pytoh form and select `Create repository from template`.
 1. On your new repository select the `<> Code` menu, select the `Codespaces` tab, then select the `Create codespace on main`.
@@ -29,9 +29,9 @@ If you don't already have your Codespace created and running then follow step 5 
 
 With your Codespace now running:
 
-1. In the terminal (CTRL+Shift+\`), type `python console.py` to run the console version of the Tower of Hanoi sample.
-1. In the terminal, type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select the `Open in Browser` in the popup message to run the web application version of the Tower Of Hanoi sample.
-1. Press CTRL+C to stop the web application.
+1. In the terminal (CTRL+Shift+\`) type `python console.py` to run the command line version of the sample.
+1. In the terminal type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select the `Open in Browser` in the popup message to run the web application version of the Tower Of Hanoi sample.
+1. In the terminal press CTRL+C to stop the web application.
 1. Close the tab that was running Visual Studio Code in the browser.
 
 >:thumbsup: No installs, no setup and configuration.  It just ran.  That's what Codespaces with Visual Studio Code in the browser does for you.
