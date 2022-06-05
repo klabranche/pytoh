@@ -88,7 +88,7 @@ You can debug with both the browser and desktop version of Visual Studio Code wi
 1. Press `F5` to continue and the home page should now load.
 1. Press `Shift+F5` to end the debugging session.
 
-### Sharing your app to others
+### Sharing your app with others (Port Forwarding)
 
 By default the ports used by the container are private to your session only.  However, you can make it public to show your work to others.  This is ideal for a simple demo.  
 
@@ -107,7 +107,7 @@ Let's go ahead and undo that now.  It's great for a quick pinch demo but we don'
 1. Select `PORTS` tab that is in the terminal window.
 1. Right click port 5000, select `Port Visibility` and then `Private`
 
-### Customize the container
+## Customize the container
 
 The [default container](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers#using-the-default-dev-container-configuration) from GitHub has an assortment of compilers, runtimes and tools on it.  For example, `console.py` would run immediately without any customization since Python is installed on the default container.
 
@@ -119,24 +119,24 @@ Creating this file in Visual Studio Code is a breeze by opening the command pale
 
 There is a lot more you can do with [customizing your container](https://code.visualstudio.com/docs/remote/create-dev-container).
 
-### Cleanup
+## Cleanup
 
 You can delete the Codespace in GitHub or in Visual Studio Code.
 
 >:warning: Deleting a Codespace deletes all work that was being done in the container.  Be sure to `push` your changes up to GitHub before deleting a Codespace.
 
-#### Deleting Codespace using GitHub
+### Deleting Codespace using GitHub
 1. Select the `<> Code` menu
 1. Select `manage all`.  
 1. For each Codespace in the list of Codespaces you want to delete select `...` menu and then select `Delete`.
 
-#### Deleting Codespace using Visual Studio Code
+### Deleting Codespace using Visual Studio Code
 1. Click `Codespaces` in the lower left hand corner of Visual Studio Code. 
 1. Select `Delete Codespace` in the drop down menu opened by the command palette.
 1. Select the codespace you want to delete from the drop down list.
 1. Select `delete` when asked to confirm deletion.
 
-### What Next
+## What Next
 
 There is so much more to learn about Visual Studio Code and GitHub Codespaces. To learn more check out [GitHub Codespaces docs](https://docs.github.com/en/codespaces).
 
