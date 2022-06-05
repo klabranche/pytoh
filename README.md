@@ -88,7 +88,7 @@ You can debug with both the browser and desktop version of Visual Studio Code wi
 
 By default the ports used by the container are private to your session only.  However, you can make it public to show your work to others.  This is ideal for a simple demo.  
 
->:exclamation::warning: Don't do this for anything other than a demo.  This is not meant for production work or replacement of a server or web hosting.
+>:exclamation: Don't do this for anything other than a demo.  This is not meant for production work or replacement of a server or web hosting.
 
 1. Select `PORTS` tab that is in the terminal window.
 1. Right click port 5000, select `Port Visibility` and then `Public`
@@ -107,7 +107,7 @@ Let's go ahead and undo that now.  It's great for a quick pinch demo but we don'
 
 You can delete the Codespace in GitHub or in Visual Studio Code.
 
->:exclamation::warning: Deleting a Codespace deletes all work that was being done in the container.  Be sure to `push` your changes up to GitHub before deleting a Codespace.
+>:warning: Deleting a Codespace deletes all work that was being done in the container.  Be sure to `push` your changes up to GitHub before deleting a Codespace.
 
 #### Deleting Codespace using GitHub
 1. Select the `<> Code` menu
