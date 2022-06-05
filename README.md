@@ -6,7 +6,7 @@ This is a sample Python and Flask Application designed to show how easy it is to
 
 Your instant ready to go development box available anywhere, anytime, on any device with Visual Studio Code in the browser or on your machine with just a few extensions and nothing else.
 
-The [presentation](presentation/GithubCodespaces.pdf) in this folder gives a brief overview. 
+The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder gives a brief overview. 
 
 ### See it in action
 
@@ -37,6 +37,7 @@ If you want to use your Visual Studio Code on your machine.
 Visual Studio Code requires the following Extensions for GitHub Codespaces:
 
 [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
+[Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 If you don't install these extensions before hand, the process will ask you to.
 
