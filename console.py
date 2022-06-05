@@ -10,6 +10,7 @@ def console():
         print("discCount is not a number... defaulting to 3")
         discs_to_move=3
 
+
     print()
     print("Moving",discs_to_move,"discs from rod A to rod C", end="\n\n")
     steps=[]

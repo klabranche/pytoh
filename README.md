@@ -54,10 +54,37 @@ If you haven't already logged into GitHub in Visual Studio Code you will be prom
 With your Codespace now running:
 
 1. In the terminal (CTRL+Shift+\`), type `python console.py` to run the console version of the Tower of Hanoi sample.
-1. In the terminal, type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select the `Open in Browser` in the popup message to run the web application version of the Tower of Hanoi sample.
+1. In the terminal, type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version of the Tower of Hanoi sample.
 1. Press CTRL+C to stop the web application.
 1. To stop the session, click `Codespaces` in the lower left hand corner of Visual Studio Code.  Select `Stop current codespace` in the drop down menu opened by the command palette.
  
+### Debugging
+
+You can debug with both the browser and desktop version of Visual Studio Code with Codespaces.
+
+#### Debugging console.py 
+
+1. Select `console.py` in the explorer (left hand icon menu).
+1. Put a breakpoint on line 11 by clicking right to the left of the line number.
+1. Select Run and Debug (left hand icon menu).
+1. Select `Python: Current File` in the drop down menu at the top right of the Run and Debug window.
+1. Press `F5` to start a debugging session.
+1. At the prompt in the terminal enter something other than a number.
+1. The breakpoint should now be hit.  Press `F5` to continue.
+
+#### Debugging app.py (flask)
+
+1. Select `app.py` in the explorer (left hand icon menu).
+1. Put a breakpoint on line 9 by clicking right to the left of the line number.
+1. Select Run and Debug (left hand icon menu).
+1. Select `Python: Flask` in the drop down menu at the top right of the Run and Debug window.
+1. Press `F5` to start a debugging session.
+1. Either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version of the Tower of Hanoi sample.
+1. The web page should now be spinning without anything showing yet.  That's because the breakpoint has been hit before we have returned the home page.
+1. Press `F5` to continue and the home page should now load.
+1. Press `Shift+F5` to end the debugging session.
+
+
 ### Cleanup
 
 You can delete the Codespace in GitHub or in Visual Studio Code.
@@ -73,3 +100,7 @@ You can delete the Codespace in GitHub or in Visual Studio Code.
 1. Click `Codespaces` in the lower left hand corner of Visual Studio Code. 1. Select `Delete Codespace` in the drop down menu opened by the command palette.
 1. Select the codespace you want to delete from the drop down list.
 1. Select `delete` when asked to confirm deletion.
+
+### What Next
+
+There is so much more to learn about Visual Studio Code and GitHub Codespaces. To learn more check out [GitHub Codespaces docs ](https://docs.github.com/en/codespaces).
