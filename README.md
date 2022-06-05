@@ -115,7 +115,8 @@ You can delete the Codespace in GitHub or in Visual Studio Code.
 1. For each Codespace in the list of Codespaces you want to delete select `...` menu and then select `Delete`.
 
 #### Deleting Codespace using Visual Studio Code
-1. Click `Codespaces` in the lower left hand corner of Visual Studio Code. 1. Select `Delete Codespace` in the drop down menu opened by the command palette.
+1. Click `Codespaces` in the lower left hand corner of Visual Studio Code. 
+1. Select `Delete Codespace` in the drop down menu opened by the command palette.
 1. Select the codespace you want to delete from the drop down list.
 1. Select `delete` when asked to confirm deletion.
 
