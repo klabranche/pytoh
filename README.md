@@ -33,7 +33,7 @@ With your Codespace now running:
 
 1. In the terminal (CTRL+Shift+\`) type `python console.py` to run the command line version of the sample.
 1. In the terminal type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select the `Open in Browser` in the popup message to run the web application version of the Tower Of Hanoi sample.
-1. In the terminal press CTRL+C to stop the web application.
+1. In the terminal press `CTRL+C` to stop the web application.
 1. Close the tab that was running Visual Studio Code in the browser.
 
 >:thumbsup: No installs, no setup and configuration.  It just ran.  That's what Codespaces with Visual Studio Code in the browser does for you.
@@ -57,7 +57,7 @@ With your Codespace now running:
 
 1. In the terminal (CTRL+Shift+\`), type `python console.py` to run the console version of the Tower of Hanoi sample.
 1. In the terminal, type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version of the Tower of Hanoi sample.
-1. Press CTRL+C to stop the web application.
+1. Press `CTRL+C` to stop the web application.
 1. To stop the session, click `Codespaces` in the lower left hand corner of Visual Studio Code.  Select `Stop current codespace` in the drop down menu opened by the command palette.
  
 You can also use Visual Studio Code's command palette (`CTRL+Shift+P`) to manage your Codespaces.  To see all the available options type `codespaces` in the command palette window.
@@ -76,7 +76,7 @@ You can debug with both the browser and desktop version of Visual Studio Code wi
 1. At the prompt in the terminal enter something other than a number.
 1. The breakpoint should now be hit.  Press `F5` to continue.
 
-#### Debugging app.py (flask)
+#### Debugging app.py (Flask)
 
 1. Select `app.py` in the explorer (left hand icon menu).
 1. Put a breakpoint on line 9 by clicking right to the left of the line number.
