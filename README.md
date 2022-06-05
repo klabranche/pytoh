@@ -123,3 +123,8 @@ You can delete the Codespace in GitHub or in Visual Studio Code.
 ### What Next
 
 There is so much more to learn about Visual Studio Code and GitHub Codespaces. To learn more check out [GitHub Codespaces docs ](https://docs.github.com/en/codespaces).
+
+[Learn more about Flask](https://flask.palletsprojects.com/en/2.1.x/quickstart/#a-minimal-application)
+
+[Deploy a Flask app to Azure](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?toc=%2Fazure%2Fdeveloper%2Fpython%2Ftoc.json&bc=%2Fazure%2Fdeveloper%2Fbreadcrumb%2Ftoc.json&tabs=flask%2Cwindows%2Cazure-portal%2Cterminal-bash%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cdeploy-instructions-zip-azcli) 
+
