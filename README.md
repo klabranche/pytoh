@@ -23,7 +23,7 @@ To see it in action right now:
 
 ### Running the Python Examples
 
-If you don't already have your Codespace created and running then follow step five of the See it in action section.
+If you don't already have your Codespace created and running then follow step five of the [See it in action](#see-it-in-action) section.
 
 #### With Visual Studio Code In The Browser
 
