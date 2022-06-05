@@ -122,7 +122,7 @@ You can delete the Codespace in GitHub or in Visual Studio Code.
 
 ### What Next
 
-There is so much more to learn about Visual Studio Code and GitHub Codespaces. To learn more check out [GitHub Codespaces docs ](https://docs.github.com/en/codespaces).
+There is so much more to learn about Visual Studio Code and GitHub Codespaces. To learn more check out [GitHub Codespaces docs](https://docs.github.com/en/codespaces).
 
 [Learn more about Flask](https://flask.palletsprojects.com/en/2.1.x/quickstart/#a-minimal-application)
 
