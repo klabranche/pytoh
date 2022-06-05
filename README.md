@@ -25,6 +25,8 @@ To see it in action right now:
 
 If you don't already have your Codespace created and running then follow step 5 of the See it in action section and let it use the browser based version  of Visual Studio Code.
 
+#### With Visual Studio Code In The Browser
+
 With your Codespace now running:
 
 1. In the terminal (CTRL+Shift+\`), type `python console.py` to run the console version of the Tower of Hanoi sample.
@@ -32,13 +34,13 @@ With your Codespace now running:
 1. Press CTRL+C to stop the web application.
 1. Close the tab that was running Visual Studio Code in the browser.
 
->No installs, no setup and configuration.  It just ran.  That's what Codespaces with Visual Studio Code in the browser does for you.
+>:thumbsup: No installs, no setup and configuration.  It just ran.  That's what Codespaces with Visual Studio Code in the browser does for you.
 
-If you want to use Visual Studio Code on your machine there are a few Extensions required:
+#### With Visual Studio Code On Your Machine
+If you want to use Visual Studio Code on your machine there are two extensions required:
 
-[GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
-
-[Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+* [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
+* [Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 If you don't install these extensions before trying to open in Visual Studio Code desktop the process will prompt you to.
 
