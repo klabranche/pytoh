@@ -1,4 +1,4 @@
-# Visual Studio Code and GitHub Codespaces Example Using Python and Flask
+# Visual Studio Code and GitHub Codespaces example using Python and Flask
 
 This is a sample Python and Flask Application designed to show how easy it is to use Visual Studio Code and GitHub Codespaces.
 
