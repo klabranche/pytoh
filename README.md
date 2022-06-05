@@ -107,6 +107,18 @@ Let's go ahead and undo that now.  It's great for a quick pinch demo but we don'
 1. Select `PORTS` tab that is in the terminal window.
 1. Right click port 5000, select `Port Visibility` and then `Private`
 
+### Customize the container
+
+The default container used already has an assortment of compilers, runtimes and tools on it.  For example, `console.py` would run immediately without any customization since Python is installed on the default container.
+
+Flask however is not.  In order for `app.py` to run without any extra steps we created the [devcontainer.json](https://github.com/klabranche/pytoh/blob/main/.devcontainer/devcontainer.json) file in the .devcontainer folder.
+
+We added a post create command to run `pip` to install our `requirements.txt`.  Line 50 of the `devcontainer.json` reads `"postCreateCommand": "pip3 install --user -r requirements.txt",`.
+
+Now Flask is installed whenever a new container is created.
+
+Creating this file in Visual Studio Code is a breeze.
+
 ### Cleanup
 
 You can delete the Codespace in GitHub or in Visual Studio Code.
