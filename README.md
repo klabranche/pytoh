@@ -6,7 +6,7 @@ The python code is of the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_o
 
 ## What Is GitHub Codespaces
 
-Your instant ready to go development box available anywhere, anytime, on any device with Visual Studio Code in the browser or on your machine with just a few extensions and nothing else.
+Your instant, ready to go, development box available anywhere, anytime, on any device with Visual Studio Code in the browser or on your machine with just a few extensions and nothing else.
 
 The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder gives a brief overview. 
 
@@ -23,9 +23,11 @@ To see it in action right now:
 
 ### Running the Python Examples
 
-If you don't already have your Codespace created and running then follow step 5 of the See it in action section and let it use the browser based version  of Visual Studio Code.
+If you don't already have your Codespace created and running then follow step five of the See it in action section.
 
 #### With Visual Studio Code In The Browser
+
+The default action when creating or starting a Codespace from GitHub is to use the Browser.
 
 With your Codespace now running:
 
@@ -57,6 +59,8 @@ With your Codespace now running:
 1. In the terminal, type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version of the Tower of Hanoi sample.
 1. Press CTRL+C to stop the web application.
 1. To stop the session, click `Codespaces` in the lower left hand corner of Visual Studio Code.  Select `Stop current codespace` in the drop down menu opened by the command palette.
+ 
+You can also use Visual Studio Code's command palette (`CTRL+Shift+P`) to manage your Codespaces.  To see all the available options type `codespaces` in the command palette window.
  
 ### Debugging
 
