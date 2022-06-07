@@ -15,7 +15,7 @@ def console():
     print("Moving",discs_to_move,"discs from rod A to rod C", end="\n\n")
     steps=[]
     toh(steps,discs_to_move, 'A', 'C', 'B')
-    for i, step in enumerate(steps):
+    for _, step in enumerate(steps):
         print("Move disc", step[0],"from rod",step[1],"to rod",step[2])
 
     print(steps)
