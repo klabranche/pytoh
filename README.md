@@ -111,7 +111,11 @@ The [default container](https://docs.github.com/en/codespaces/setting-up-your-pr
 
 Flask, however is not.  In order for `app.py` to run without any extra manual steps we created the [devcontainer.json](https://github.com/klabranche/pytoh/blob/main/.devcontainer/devcontainer.json) file in the .devcontainer folder.
 
-We added a post create command to run `pip` to install our `requirements.txt`.  Line 50 of the `devcontainer.json` reads `"postCreateCommand": "pip3 install --user -r requirements.txt",`. This installs Flask whenever a new container is created.
+We added a post create command to run `pip` to install our `requirements.txt`.  Line 50 of the `devcontainer.json` reads:
+
+`"postCreateCommand": "pip3 install --user -r requirements.txt",`
+
+This installs Flask whenever a new container is created.
 
 Creating this file in Visual Studio Code is a breeze by opening the command palette (`CTRL+Shift+P`) and typing `remote-container: Add Development Container Configuration Files` and follow the prompts.  
 
