@@ -2,7 +2,7 @@
 
 This is a sample Python and Flask application designed to show how easy it is to use Visual Studio Code and GitHub Codespaces.
 
-The python code is of the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) puzzle that is often used to teach [recursion](https://en.wikipedia.org/wiki/Recursion) in computer science courses.
+The Python code is of the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) puzzle that is often used to teach [recursion](https://en.wikipedia.org/wiki/Recursion) in computer science courses.
 
 ## What Is GitHub Codespaces
 
@@ -21,8 +21,7 @@ The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder
 
 ### Running the Python Examples
 
-
-Create your Codespace by following the [See it in action](#see-it-in-action) section.
+**Prerequisite:** Create your Codespace by following the [See it in action](#see-it-in-action) section.
 
 #### With Visual Studio Code In The Browser
 
@@ -30,8 +29,8 @@ The default action when creating or starting a Codespace from GitHub is to use t
 
 With your Codespace now running:
 
-1. In the terminal (CTRL+Shift+\`) type `python console.py` to run the command line version of the sample.
-1. In the terminal type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select the `Open in Browser` in the popup message to run the web application version of the Tower Of Hanoi sample.
+1. In the terminal (CTRL+Shift+\`) type `python console.py` to run the command line version.
+1. In the terminal type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select the `Open in Browser` in the popup message to run the web application version.
 1. In the terminal press `CTRL+C` to stop the web application.
 1. Close the tab that was running Visual Studio Code in the browser.
 
@@ -94,7 +93,7 @@ By default, ports used by the container are private to your session only.  Howev
 >:exclamation: Don't do this for anything other than a demo.  This is not meant for production work or replacement of a server or web hosting.
 
 1. Select `PORTS` tab that is in the terminal window.
-1. Right click port 5000; select `Port Visibility` and then `Public`
+1. Right click port 5000; select `Port Visibility` and then `Public`.
 1. Select `TERMINAL` tab again and then type at the command prompt `flask run`.
 
 Now when you open the browser you will have a new url.  You can share this URL with others.
@@ -104,7 +103,7 @@ How is this working?  The GitHub Codespace is in the cloud and has setup this li
 Let's go ahead and undo that now.  It's great for a quick pinch demo but we don't recommend it for much more than that.  
 
 1. Select `PORTS` tab that is in the terminal window.
-1. Right click port 5000; select `Port Visibility` and then `Private`
+1. Right click port 5000; select `Port Visibility` and then `Private`.
 
 ## Customize the container
 
