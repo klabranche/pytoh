@@ -37,14 +37,14 @@ With your Codespace now running:
 >:thumbsup: No installs, no setup and configuration.  It just ran.  That's what Codespaces with Visual Studio Code in the browser does for you.
 
 #### With Visual Studio Code On Your Machine
-If you want to use Visual Studio Code on your machine there are two extensions required:
+Visual Studio Code on your machine requires two extensions to work with GitHub Codespaces:
 
 * [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
 * [Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
-If you don't install these extensions before trying to open in Visual Studio Code desktop the process will prompt you to.
+You will be prompted to install the extensions when opening a Codespace if they are not installed.
 
-If you haven't already logged into GitHub in Visual Studio Code you will be prompted to.
+You will be promtped to login into GitHub if you have not already done so in Visual Studio Code.
 
 1. Re-open the Codespace by selecting the `<> Code` menu in your browser; select the `Codespaces` tab.
 1. Select the randomly named Codespace and then `Open this codespace in VS Code desktop` when the Codespace page starts to load.
