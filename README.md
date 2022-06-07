@@ -16,7 +16,7 @@ The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder
 1. After getting access to Codespaces; login to github and navigate to https://github.com/klabranche/pytoh.
 1. Select `Use this template`. While you can create a Codespace right from `<> code`, `use this template` will create a copy of the repository in your profile.
 1. Fill out the form and select `Create repository from template`.
-1. On your new repository select the `<> Code` menu; then `Codespaces` tab; then select `Create codespace on main`.
+1. On your new repository select the `<> Code` menu; then `Codespaces` tab; then `Create codespace on main`.
 
 
 ### Running the Python Examples
@@ -46,17 +46,17 @@ You will be prompted to install the extensions when opening a Codespace if they 
 
 You will be promtped to login into GitHub if you have not already done so in Visual Studio Code.
 
-1. Re-open the Codespace by selecting the `<> Code` menu in your browser; select the `Codespaces` tab.
+1. Re-open the Codespace by selecting the `<> Code` menu in your browser; select `Codespaces` tab.
 1. Select the randomly named Codespace and then `Open this codespace in VS Code desktop` when the Codespace page starts to load.
-1. Select `Open` when you get this site is trying to open Visual Studio Code popup.
-1. Select `Open` when you get the allow an extension to open this URI? popup.
+1. Select `Open` when you get "this site is trying to open Visual Studio Code" popup.
+1. Select `Open` when you get "allow an extension to open this URI?" popup.
 
 With your Codespace now running:
 
-1. In the terminal (CTRL+Shift+\`), type `python console.py` to run the console Tower of Hanoi sample.
+1. In the terminal (CTRL+Shift+\`); type `python console.py` to run the console sample.
 1. In the terminal; type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version.
-1. Press `CTRL+C` to stop the web application.
-1. To stop the session; click `Codespaces` in the lower left hand corner of Visual Studio Code.  Select `Stop current codespace` in the drop down menu opened by the command palette.
+1. In the terminal; press `CTRL+C` to stop the web application.
+1. To stop the Codespace session; click `Codespaces` in the lower left hand corner of Visual Studio Code.  Select `Stop current codespace` in the drop down menu opened by the command palette.
  
 You can also use Visual Studio Code's command palette (`CTRL+Shift+P`) to manage your Codespaces.  To see all the available options type `codespaces` in the command palette window.
  
@@ -77,13 +77,13 @@ You can debug with both the browser and desktop version of Visual Studio Code wi
 #### Debugging app.py (Flask)
 
 1. Select `app.py` in the explorer (left hand icon menu).
-1. Put a breakpoint on line 9 by clicking right to the left of the line number.
-1. Select Run and Debug (left hand icon menu).
+1. Put a breakpoint on line 9 by clicking to the left of the line number.
+1. Select Run and Debug icon (left hand icon menu).
 1. Select `Python: Flask` in the drop down menu at the top right of the Run and Debug window.
 1. Press `F5` to start a debugging session.
 1. Either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version of the Tower of Hanoi sample.
 1. The web page should now be spinning without anything showing yet.  That's because the breakpoint has been hit before we have returned the home page.
-1. Press `F5` to continue and the home page should now load.
+1. In Visual Studio Code; press `F5` to continue and the home page should now load.
 1. Press `Shift+F5` to end the debugging session.
 
 ### Sharing your app with others (Port Forwarding)
