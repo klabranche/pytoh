@@ -18,7 +18,7 @@ The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder
 ![use-this-template](https://user-images.githubusercontent.com/1045379/172484527-7c8f43d3-cb5f-4af7-9166-6508b844badc.png)
 3. Fill out the form and select `Create repository from template`.
 4. On your new repository select the `<> Code` menu; then `Codespaces` tab; then `Create codespace on main`.
-
+![create-codespace-gui](https://user-images.githubusercontent.com/1045379/172485066-8b637491-547e-4c14-9de8-5954a401974b.png)
 
 ### Running the Python Examples
 
