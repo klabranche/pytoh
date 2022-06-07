@@ -1,33 +1,32 @@
 # Visual Studio Code and GitHub Codespaces example using Python and Flask
 
-This is a sample Python and Flask Application designed to show how easy it is to use Visual Studio Code and GitHub Codespaces.
+This is a sample Python and Flask application designed to show how easy it is to use Visual Studio Code and GitHub Codespaces.
 
 The python code is of the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) puzzle that is often used to teach [recursion](https://en.wikipedia.org/wiki/Recursion) in computer science courses.
 
 ## What Is GitHub Codespaces
 
-Your instant, ready to go, development box available anywhere, anytime, on any device with Visual Studio Code in the browser or on your machine with just a few extensions and nothing else.
+Your instant, ready to go, development box available anywhere, anytime, any device with Visual Studio Code in the browser or your machine with two extensions and nothing else.
 
 The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder gives a brief overview. 
 
 ### See it in action
 
-To see it in action right now:
-
 1. [Request access](https://github.com/features/codespaces/signup) to Codespaces for your github account.  Access should be given in a few hours.
-1. After getting access to Codespaces, login to github and navigate to the https://github.com/klabranche/pytoh repository.
+1. After getting access to Codespaces; login to github and navigate to the https://github.com/klabranche/pytoh repository.
 1. Select `Use this template`. While you can create a Codespace right from `<> code` this will create a copy of the repository in your profile.
-1. Fill out the create a new repository from pytoh form and select `Create repository from template`.
-1. On your new repository select the `<> Code` menu, select the `Codespaces` tab, then select the `Create codespace on main`.
+1. Fill out the form and select `Create repository from template`.
+1. On your new repository select the `<> Code` menu; then `Codespaces` tab; then select `Create codespace on main`.
 
 
 ### Running the Python Examples
 
-If you don't already have your Codespace created and running then follow step five of the [See it in action](#see-it-in-action) section.
+
+Create your Codespace by following the [See it in action](#see-it-in-action) section.
 
 #### With Visual Studio Code In The Browser
 
-The default action when creating or starting a Codespace from GitHub is to use the Browser.
+The default action when creating or starting a Codespace from GitHub is to use the browser.
 
 With your Codespace now running:
 
@@ -48,17 +47,17 @@ If you don't install these extensions before trying to open in Visual Studio Cod
 
 If you haven't already logged into GitHub in Visual Studio Code you will be prompted to.
 
-1. Re-open the Codespace by selecting the `<> Code` menu in your browser, select the `Codespaces` tab.
+1. Re-open the Codespace by selecting the `<> Code` menu in your browser; select the `Codespaces` tab.
 1. Select the randomly named Codespace and then `Open this codespace in VS Code desktop` when the Codespace page starts to load.
-1. Select `Open` when you get the This site is trying to open Visual Studio Code.
-1. Select `Open` when you get the Allow an extension to open this URI?
+1. Select `Open` when you get this site is trying to open Visual Studio Code popup.
+1. Select `Open` when you get the allow an extension to open this URI? popup.
 
 With your Codespace now running:
 
-1. In the terminal (CTRL+Shift+\`), type `python console.py` to run the console version of the Tower of Hanoi sample.
-1. In the terminal, type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version of the Tower of Hanoi sample.
+1. In the terminal (CTRL+Shift+\`), type `python console.py` to run the console Tower of Hanoi sample.
+1. In the terminal; type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version.
 1. Press `CTRL+C` to stop the web application.
-1. To stop the session, click `Codespaces` in the lower left hand corner of Visual Studio Code.  Select `Stop current codespace` in the drop down menu opened by the command palette.
+1. To stop the session; click `Codespaces` in the lower left hand corner of Visual Studio Code.  Select `Stop current codespace` in the drop down menu opened by the command palette.
  
 You can also use Visual Studio Code's command palette (`CTRL+Shift+P`) to manage your Codespaces.  To see all the available options type `codespaces` in the command palette window.
  
@@ -90,12 +89,12 @@ You can debug with both the browser and desktop version of Visual Studio Code wi
 
 ### Sharing your app with others (Port Forwarding)
 
-By default the ports used by the container are private to your session only.  However, you can make it public to show your work to others.  This is ideal for a simple demo.  
+By default, ports used by the container are private to your session only.  However, you can make it public to show your work to others.  This is ideal for a simple demo.  
 
 >:exclamation: Don't do this for anything other than a demo.  This is not meant for production work or replacement of a server or web hosting.
 
 1. Select `PORTS` tab that is in the terminal window.
-1. Right click port 5000, select `Port Visibility` and then `Public`
+1. Right click port 5000; select `Port Visibility` and then `Public`
 1. Select `TERMINAL` tab again and then type at the command prompt `flask run`.
 
 Now when you open the browser you will have a new url.  You can share this URL with others.
@@ -105,15 +104,15 @@ How is this working?  The GitHub Codespace is in the cloud and has setup this li
 Let's go ahead and undo that now.  It's great for a quick pinch demo but we don't recommend it for much more than that.  
 
 1. Select `PORTS` tab that is in the terminal window.
-1. Right click port 5000, select `Port Visibility` and then `Private`
+1. Right click port 5000; select `Port Visibility` and then `Private`
 
 ## Customize the container
 
 The [default container](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers#using-the-default-dev-container-configuration) from GitHub has an assortment of compilers, runtimes and tools on it.  For example, `console.py` would run immediately without any customization since Python is installed on the default container.
 
-Flask however is not.  In order for `app.py` to run without any extra steps we created the [devcontainer.json](https://github.com/klabranche/pytoh/blob/main/.devcontainer/devcontainer.json) file in the .devcontainer folder.
+Flask, however is not.  In order for `app.py` to run without any extra manual steps we created the [devcontainer.json](https://github.com/klabranche/pytoh/blob/main/.devcontainer/devcontainer.json) file in the .devcontainer folder.
 
-We added a post create command to run `pip` to install our `requirements.txt`.  Line 50 of the `devcontainer.json` reads `"postCreateCommand": "pip3 install --user -r requirements.txt",`. Now Flask is installed whenever a new container is created.
+We added a post create command to run `pip` to install our `requirements.txt`.  Line 50 of the `devcontainer.json` reads `"postCreateCommand": "pip3 install --user -r requirements.txt",`. This installs Flask whenever a new container is created.
 
 Creating this file in Visual Studio Code is a breeze by opening the command palette (`CTRL+Shift+P`) and typing `remote-container: Add Development Container Configuration Files` and follow the prompts.  
 
@@ -126,7 +125,7 @@ You can delete the Codespace in GitHub or in Visual Studio Code.
 >:warning: Deleting a Codespace deletes all work that was being done in the container.  Be sure to `push` your changes up to GitHub before deleting a Codespace.
 
 ### Deleting Codespace using GitHub
-1. Select the `<> Code` menu
+1. Select the `<> Code` menu.
 1. Select `manage all`.  
 1. For each Codespace in the list of Codespaces you want to delete select `...` menu and then select `Delete`.
 
@@ -136,7 +135,7 @@ You can delete the Codespace in GitHub or in Visual Studio Code.
 1. Select the codespace you want to delete from the drop down list.
 1. Select `delete` when asked to confirm deletion.
 
-## What Next
+## Next Steps
 
 There is so much more to learn about Visual Studio Code and GitHub Codespaces. To learn more check out [GitHub Codespaces docs](https://docs.github.com/en/codespaces).
 
