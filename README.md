@@ -14,10 +14,13 @@ The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder
 
 1. [Request access](https://github.com/features/codespaces/signup) to Codespaces for your github account.  Access should be given in a few hours.
 1. After getting access to Codespaces; login to github and navigate to https://github.com/klabranche/pytoh.
-1. Select `Use this template`. While you can create a Codespace right from `<> code`, `use this template` will create a copy of the repository in your profile.
+1. Select `Use this template`. While you can create a Codespace right from `<> code`, `use this template` will create a copy of the repository in your profile. 
+
 ![use-this-template](https://user-images.githubusercontent.com/1045379/172484527-7c8f43d3-cb5f-4af7-9166-6508b844badc.png)
+
 1. Fill out the form and select `Create repository from template`.
 1. On your new repository select the `<> Code` menu; then `Codespaces` tab; then `Create codespace on main`.
+
 ![create-codespace-gui](https://user-images.githubusercontent.com/1045379/172485066-8b637491-547e-4c14-9de8-5954a401974b.png)
 
 ### Running the Python Examples
@@ -48,10 +51,12 @@ You will be prompted to install the extensions when opening a Codespace if they 
 You will be promtped to login into GitHub if you have not already done so in Visual Studio Code.
 
 1. Re-open the Codespace by selecting the `<> Code` menu in your browser; select `Codespaces` tab.
-1. Select the randomly named Codespace and then `Open this codespace in VS Code desktop` when the Codespace page starts to load.
+1. Every Codespace created by GitHub is given a random name. Select the randomly named Codespace; then `Open this codespace in VS Code desktop` when the Codespace page starts to load.
+
 ![open-vs-desktop](https://user-images.githubusercontent.com/1045379/172486475-82b48b7a-9c1c-4a45-8c32-11ba97b5d10e.png)
-1. Select `Open` when you get "this site is trying to open Visual Studio Code" popup.
-1. Select `Open` when you get "allow an extension to open this URI?" popup.
+
+3. Select `Open` when you get "this site is trying to open Visual Studio Code" popup.
+3. Select `Open` when you get "allow an extension to open this URI?" popup.
 
 With your Codespace now running:
 
@@ -68,11 +73,17 @@ You can debug with both the browser and desktop version of Visual Studio Code wi
 
 #### Debugging console.py 
 
-1. Select `console.py` in the explorer (left hand icon menu).
-1. Put a breakpoint on line 11 by clicking right to the left of the line number.
+1. Select `console.py` file in the explorer (left hand icon menu).
+
+![explorer-icon](https://user-images.githubusercontent.com/1045379/172488635-ccaf95c0-ab8c-42a9-bf12-b7beea7818f7.png)
+
+2. Put a breakpoint on line 11 by clicking to the left of the line number.
 1. Select Run and Debug (left hand icon menu).
 1. Select `Python: Current File` in the drop down menu at the top right of the Run and Debug window.
-1. Press `F5` to start a debugging session.
+
+![run-debug-icon](https://user-images.githubusercontent.com/1045379/172489692-01704127-e19e-4330-b407-f68ec36a3c14.png)
+
+5. Press `F5` to start a debugging session.
 1. At the prompt in the terminal enter something other than a number.
 1. The breakpoint should now be hit.  Press `F5` to continue.
 
@@ -96,7 +107,11 @@ By default, ports used by the container are private to your session only.  Howev
 
 1. Select `PORTS` tab that is in the terminal window.
 1. Right click port 5000; select `Port Visibility` and then `Public`.
-1. Select `TERMINAL` tab again and then type at the command prompt `flask run`.
+
+![port-public](https://user-images.githubusercontent.com/1045379/172489409-50a28c26-15dc-4e3f-a71e-46116c48676a.png)
+
+
+3. Select `TERMINAL` tab again and then type at the command prompt `flask run`.
 
 Now when you open the browser you will have a new url.  You can share this URL with others.
 
@@ -140,9 +155,11 @@ You can delete the Codespace in GitHub or in Visual Studio Code.
 1. Select the codespace you want to delete from the drop down list.
 1. Select `delete` when asked to confirm deletion.
 
-## Next Steps
+## Learn More
 
 There is so much more to learn about Visual Studio Code and GitHub Codespaces. To learn more check out [GitHub Codespaces docs](https://docs.github.com/en/codespaces).
+
+[Learn more about Python](https://docs.microsoft.com/en-us/learn/modules/intro-to-python/)
 
 [Learn more about Flask](https://flask.palletsprojects.com/en/2.1.x/quickstart/#a-minimal-application)
 
