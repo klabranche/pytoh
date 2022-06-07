@@ -31,7 +31,7 @@ The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder
 
 The default action when creating or starting a Codespace from GitHub is to use the browser.
 
-With your Codespace now running:
+With your Codespace running:
 
 1. In the terminal (CTRL+Shift+\`) type `python console.py` to run the command line version.
 1. In the terminal type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select the `Open in Browser` in the popup message to run the web application version.
@@ -58,7 +58,7 @@ You will be promtped to login into GitHub if you have not already done so in Vis
 3. Select `Open` when you get "this site is trying to open Visual Studio Code" popup.
 3. Select `Open` when you get "allow an extension to open this URI?" popup.
 
-With your Codespace now running:
+With your Codespace running:
 
 1. In the terminal (CTRL+Shift+\`); type `python console.py` to run the console sample.
 1. In the terminal; type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version.
@@ -69,7 +69,7 @@ You can also use Visual Studio Code's command palette (`CTRL+Shift+P`) to manage
  
 ### Debugging
 
-You can debug with both the browser and desktop version of Visual Studio Code with Codespaces.
+You can debug with the browser and desktop version of Visual Studio Code with Codespaces.
 
 #### Debugging console.py 
 
