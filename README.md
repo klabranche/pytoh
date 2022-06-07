@@ -10,7 +10,7 @@ Your instant, ready to go, development box available anywhere, anytime, any devi
 
 The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder gives a brief overview. 
 
-### See it in action
+## See it in action
 
 1. [Request access](https://github.com/features/codespaces/signup) to Codespaces for your github account.  Access should be given in a few hours.
 1. After getting access to Codespaces; login to github and navigate to https://github.com/klabranche/pytoh.
@@ -23,11 +23,11 @@ The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder
 
 ![create-codespace-gui](https://user-images.githubusercontent.com/1045379/172485066-8b637491-547e-4c14-9de8-5954a401974b.png)
 
-### Running the Python Examples
+## Running the Python Examples
 
 **Prerequisite:** Create your Codespace by following the [See it in action](#see-it-in-action) section.
 
-#### With Visual Studio Code In The Browser
+### With Visual Studio Code In The Browser
 
 The default action when creating or starting a Codespace from GitHub is to use the browser.
 
@@ -40,7 +40,7 @@ With your Codespace running:
 
 >:thumbsup: No installs, no setup and configuration.  It just ran.  That's what Codespaces with Visual Studio Code in the browser does for you.
 
-#### With Visual Studio Code On Your Machine
+### With Visual Studio Code On Your Machine
 Visual Studio Code on your machine requires two extensions to work with GitHub Codespaces:
 
 * [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
@@ -67,11 +67,11 @@ With your Codespace running:
  
 You can also use Visual Studio Code's command palette (`CTRL+Shift+P`) to manage your Codespaces.  To see all the available options type `codespaces` in the command palette window.
  
-### Debugging
+## Debugging
 
 You can debug with the browser and desktop version of Visual Studio Code with Codespaces.
 
-#### Debugging console.py 
+### Debugging console.py 
 
 1. Select `console.py` file in the explorer (left hand icon menu).
 
@@ -87,7 +87,7 @@ You can debug with the browser and desktop version of Visual Studio Code with Co
 1. At the prompt in the terminal enter something other than a number.
 1. The breakpoint should now be hit.  Press `F5` to continue.
 
-#### Debugging app.py (Flask)
+### Debugging app.py (Flask)
 
 1. Select `app.py` in the explorer (left hand icon menu).
 1. Put a breakpoint on line 9 by clicking to the left of the line number.
@@ -99,7 +99,7 @@ You can debug with the browser and desktop version of Visual Studio Code with Co
 1. In Visual Studio Code; press `F5` to continue and the home page should now load.
 1. Press `Shift+F5` to end the debugging session.
 
-### Sharing your app with others (Port Forwarding)
+## Sharing your app with others (Port Forwarding)
 
 By default, ports used by the container are private to your session only.  However, you can make it public to show your work to others.  This is ideal for a simple demo.  
 
