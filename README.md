@@ -16,8 +16,8 @@ The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder
 1. After getting access to Codespaces; login to github and navigate to https://github.com/klabranche/pytoh.
 1. Select `Use this template`. While you can create a Codespace right from `<> code`, `use this template` will create a copy of the repository in your profile.
 ![use-this-template](https://user-images.githubusercontent.com/1045379/172484527-7c8f43d3-cb5f-4af7-9166-6508b844badc.png)
-3. Fill out the form and select `Create repository from template`.
-4. On your new repository select the `<> Code` menu; then `Codespaces` tab; then `Create codespace on main`.
+1. Fill out the form and select `Create repository from template`.
+1. On your new repository select the `<> Code` menu; then `Codespaces` tab; then `Create codespace on main`.
 ![create-codespace-gui](https://user-images.githubusercontent.com/1045379/172485066-8b637491-547e-4c14-9de8-5954a401974b.png)
 
 ### Running the Python Examples
@@ -49,6 +49,7 @@ You will be promtped to login into GitHub if you have not already done so in Vis
 
 1. Re-open the Codespace by selecting the `<> Code` menu in your browser; select `Codespaces` tab.
 1. Select the randomly named Codespace and then `Open this codespace in VS Code desktop` when the Codespace page starts to load.
+![open-vs-desktop](https://user-images.githubusercontent.com/1045379/172486475-82b48b7a-9c1c-4a45-8c32-11ba97b5d10e.png)
 1. Select `Open` when you get "this site is trying to open Visual Studio Code" popup.
 1. Select `Open` when you get "allow an extension to open this URI?" popup.
 
