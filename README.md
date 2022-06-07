@@ -14,7 +14,7 @@ The [presentation](presentation/GithubCodespaces.pdf) in the presentation folder
 
 1. [Request access](https://github.com/features/codespaces/signup) to Codespaces for your github account.  Access should be given in a few hours.
 1. After getting access to Codespaces; login to github and navigate to the https://github.com/klabranche/pytoh repository.
-1. Select `Use this template`. While you can create a Codespace right from `<> code` this will create a copy of the repository in your profile.
+1. Select `Use this template`. While you can create a Codespace right from `<> code`, `use this template` will create a copy of the repository in your profile.
 1. Fill out the form and select `Create repository from template`.
 1. On your new repository select the `<> Code` menu; then `Codespaces` tab; then select `Create codespace on main`.
 
