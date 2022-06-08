@@ -169,3 +169,8 @@ There is so much more to learn about Visual Studio Code and GitHub Codespaces. T
 
 [Deploy a Flask app to Azure](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?toc=%2Fazure%2Fdeveloper%2Fpython%2Ftoc.json&bc=%2Fazure%2Fdeveloper%2Fbreadcrumb%2Ftoc.json&tabs=flask%2Cwindows%2Cazure-portal%2Cterminal-bash%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cdeploy-instructions-zip-azcli) 
 
+See this [application running](https://tohsolved.azurewebsites.net/) in Azure's free [website as a service](https://docs.microsoft.com/en-us/azure/app-service/overview) tier.
+
+Check out [Azure web app for containers](https://azure.microsoft.com/en-us/services/app-service/containers/) to learn more about deploying containerized web apps.
+
+[Azure App Service Docs](https://docs.microsoft.com/en-us/azure/app-service/) is a great jumping off point to learn more about Azure App Services.
