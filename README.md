@@ -38,6 +38,16 @@ With your Codespace running:
 1. In the terminal press `CTRL+C` to stop the web application.
 1. Close the tab that was running Visual Studio Code in the browser.
 
+Now stop the Codespace:
+
+1. Go back to your repository in GitHub; Select the `<> Code` menu; then `Codespaces` tab; then `Manage all`.
+1. Select  `...` to the right of the Codespace; Select `Stop Codespace`.
+
+We stopped the Codespace for two reasons:
+
+1. To ensure we are only charged for what we use.  At this time, individual accounts aren't charged but it's still good practice to stop the Codespace when you are done.  By default, it will automatically turn off after 30 minutes of inactivity.
+1. To ensure the port we opened for Flask is ready for our next example.
+
 >:thumbsup: No installs, no setup and configuration.  It just ran.  That's what Codespaces with Visual Studio Code in the browser does for you.
 
 ### With Visual Studio Code On Your Machine
