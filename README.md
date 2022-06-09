@@ -58,23 +58,20 @@ Visual Studio Code on your machine requires two extensions to work with GitHub C
 
 You will be prompted to install the extensions when opening a Codespace if they are not installed.
 
-You will be promtped to login into GitHub if you have not already done so in Visual Studio Code.
+You will be prompted to login into GitHub if you have not already done so in Visual Studio Code.
 
-1. Re-open the Codespace by selecting the `<> Code` menu in your browser; select `Codespaces` tab.
-1. Every Codespace created by GitHub is given a random name. Select the randomly named Codespace; then `Open this codespace in VS Code desktop` when the Codespace page starts to load.
-
-![open-vs-desktop](https://user-images.githubusercontent.com/1045379/172486475-82b48b7a-9c1c-4a45-8c32-11ba97b5d10e.png)
-
-3. Select `Open` when you get "this site is trying to open Visual Studio Code" popup.
-3. Select `Open` when you get "allow an extension to open this URI?" popup.
+1. In Visual Studio Code open the command palette by typing `CTRL+SHIFT+P`; Type `codespaces` and select `Connect to CodeSpaces`.  Select the Codespace from the drop down list.
+   * Every Codespace created by GitHub is given a random name. Select the randomly named Codespace; 
+   
+![codespaces-commands](https://user-images.githubusercontent.com/1045379/172910290-2c360cc0-c0e4-44e3-b773-2dfc7766250b.png)
 
 With your Codespace running:
 
-1. In the terminal (CTRL+Shift+\`); type `python console.py` to run the console sample.
+1. Open the terminal (CTRL+Shift+\`); type `python console.py` to run the console sample.
 1. In the terminal; type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version.
    * If you get: 
-      * `Address already in use Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.` OR
-      * `504 Gateway Timeout The port forwarding timed out while trying to create a connection.`
+      * Address already in use Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port. OR
+      * 504 Gateway Timeout. The port forwarding timed out while trying to create a connection.
    * Stop the Codespace and restart it.  This is due to running the Flask example in another session for the same Codespace.
 3. In the terminal; press `CTRL+C` to stop the web application.
 4. To stop the Codespace session; click `Codespaces` in the lower left hand corner of Visual Studio Code.  Select `Stop current codespace` in the drop down menu opened by the command palette.
