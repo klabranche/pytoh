@@ -72,8 +72,12 @@ With your Codespace running:
 
 1. In the terminal (CTRL+Shift+\`); type `python console.py` to run the console sample.
 1. In the terminal; type `flask run` and either click on the url in the text `* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)` or select `Open in Browser` in the popup message to run the web application version.
-1. In the terminal; press `CTRL+C` to stop the web application.
-1. To stop the Codespace session; click `Codespaces` in the lower left hand corner of Visual Studio Code.  Select `Stop current codespace` in the drop down menu opened by the command palette.
+   * If you get: 
+      * `Address already in use Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.` OR
+      * `504 Gateway Timeout The port forwarding timed out while trying to create a connection.`
+   * Stop the Codespace and restart it.  This is due to running the Flask example in another session for the same Codespace.
+3. In the terminal; press `CTRL+C` to stop the web application.
+4. To stop the Codespace session; click `Codespaces` in the lower left hand corner of Visual Studio Code.  Select `Stop current codespace` in the drop down menu opened by the command palette.
  
 You can also use Visual Studio Code's command palette (`CTRL+Shift+P`) to manage your Codespaces.  To see all the available options type `codespaces` in the command palette window.
  
